@@ -14,7 +14,7 @@ var express = require("express");
 var app = express();
 var router = express.Router();
 var path = __dirname + '/views/';
-var port = 8888;
+var port = 3000;
 
 router.use(function (req,res,next) {
   console.log("/" + req.method);
